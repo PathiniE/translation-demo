@@ -1,23 +1,22 @@
 import dictionary from '../data/dictionary';
 
+// This function is no longer used for pre-processing but kept for potential future use
 export function processTextWithTooltips(text) {
-  if (!text) return text;
-  
-  let processedText = text;
-  const words = Object.keys(dictionary);
-  
-  // Sort words by length (longest first) to avoid partial matches
-  const sortedWords = words.sort((a, b) => b.length - a.length);
-  
-  sortedWords.forEach(word => {
-    const regex = new RegExp(`\\b${word}\\b`, 'gi');
-    const replacement = `<span class="tooltip-word" data-tooltip="${dictionary[word]}">${word}</span>`;
-    processedText = processedText.replace(regex, replacement);
-  });
-  
-  return processedText;
+  // Return text as-is since we now handle tooltips dynamically
+  return text;
 }
 
+// Utility function to check if a word exists in dictionary
+export function isWordInDictionary(word) {
+  return dictionary.hasOwnProperty(word.toLowerCase());
+}
+
+// Utility function to get definition
+export function getDefinition(word) {
+  return dictionary[word.toLowerCase()] || null;
+}
+
+// Extract dictionary words from text (for analysis)
 export function extractWords(text) {
   if (!text) return [];
   

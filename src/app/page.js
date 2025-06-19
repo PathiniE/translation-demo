@@ -9,8 +9,8 @@ export default function Home() {
           Articles with Interactive Dictionary
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Hover over highlighted words in articles to see their definitions. 
-          our collection of educational content with built-in learning tools.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
       </div>
       

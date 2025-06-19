@@ -4,7 +4,6 @@ export const articles = [
     title: "The Future of Artificial Intelligence",
     author: "Tech Researcher",
     date: "2024-01-15",
-    summary: "Exploring how artificial intelligence and machine learning are reshaping our world.",
     content: `
       Artificial intelligence represents one of the most significant technological advances of our time. This powerful technology combines advanced algorithm development with massive data processing capabilities to create systems that can learn and adapt.
 
