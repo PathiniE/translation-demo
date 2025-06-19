@@ -2,7 +2,7 @@ export const articles = [
   {
     id: 1,
     title: "The Future of Artificial Intelligence",
-    author: "Tech Researcher",
+    author: "abcd",
     date: "2024-01-15",
     content: `
       Artificial intelligence represents one of the most significant technological advances of our time. This powerful technology combines advanced algorithm development with massive data processing capabilities to create systems that can learn and adapt.
@@ -17,7 +17,7 @@ export const articles = [
   {
     id: 2,
     title: "Understanding Climate Change Through Science",
-    author: "Environmental Scientist",
+    author: "abcd",
     date: "2024-01-20",
     content: `
       Climate change is fundamentally altering Earth's ecosystem. The process involves complex interactions between the atmosphere, oceans, and living organisms. Carbon dioxide levels have increased dramatically, affecting the delicate balance that supports life.
@@ -32,7 +32,7 @@ export const articles = [
   {
     id: 3,
     title: "The Role of Mathematics in Modern Society",
-    author: "Mathematics Professor",
+    author: "abcd",
     date: "2024-01-25",
     content: `
       Mathematics forms the foundation of our understanding of the world. From ancient philosophy to modern computing, mathematical principles guide human progress and shape our culture.
