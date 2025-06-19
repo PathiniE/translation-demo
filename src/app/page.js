@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Hover over highlighted words in articles to see their definitions. 
-          Explore our collection of educational content with built-in learning tools.
+          our collection of educational content with built-in learning tools.
         </p>
       </div>
       
